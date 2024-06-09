@@ -1,0 +1,299 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.desktop {
+    position: relative;  
+    width: 1440px;
+    height: 1024px;
+}
+.background-image {
+    position: absolute;
+    width: 1443px;
+    height: 1024px;
+    left: -3px;
+    top: 0px;
+    background: url('gunung1.jpg') no-repeat center center/cover;
+}
+
+header {
+        position: absolute;
+        width: 1440px;
+        height: 135px;
+        left: 0px;
+        top: 4px;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .navbar ul li a:hover{
+        border-bottom: 2px solid yellow;
+    }
+
+    .navbar ul li a:hover{
+        border-bottom: 2px solid yellow;
+    }
+    
+    .home {
+        color: #CF1F1F;
+        position: absolute;
+        left: 626px;
+        top: 33px;
+    }
+    
+    .about {
+        color: #EEEDED;
+        position: absolute;
+        left: 802px;
+        top: 34px;
+    }
+    .portfolio {
+        color: #EEEDED;
+        position: absolute;
+        left: 976px;
+        top: 32px;
+    }
+    
+    .contact {
+        color: #CF1F1F;
+        position: absolute;
+        left: 1194px;
+        top: 32px;
+    }
+    
+
+    .profile-section {
+        position: absolute;
+        width: 442px;
+        height: 425px;
+        left: 600px;
+        top: 340px;
+    }
+    
+    .profile-pic {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        background: url('') no-repeat center center/cover;
+    }
+    
+    .name {
+        height: 79px;
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 70px;
+        position: relative;
+        left: -25px;
+        color: #030202de;
+        margin: 0;
+    }
+    
+    .id {
+        height: 43px;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 44px;
+        position: relative;
+        left: 35px;
+        color: #030202de;
+        margin: 0;
+    }
+
+.scroll-down {
+    width: 155px;
+    height: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 53px;
+    bottom: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+/* Desktop - 2 */
+.desktop-2 {
+    position: absolute;
+    width: 1440px;
+    height: 1005px;
+    left: 0px;
+    top: 1021px;
+    background: #04273f;
+}
+
+/* Frame 5 */
+.frame5 {
+    position: absolute;
+    width: 1337px;
+    height: 861px;
+    left: 70px;
+    top: 107px;
+}
+
+
+/* Frame 7 */
+
+.intro, .name-info, .ttl, .address {
+    position: absolute;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.intro {
+    width: 840px;
+    height: 171px;
+    left: -110px;
+    top: 27px;
+}
+
+/* Frame 8 */
+.frame8 {
+    position: absolute;
+    width: 347px;
+    height: 97px;
+    left: 450px;
+    top: 112px;
+}
+
+.about-me {
+    position: relative;
+    left: 14px;
+    top: -50px;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 77px;
+    color: #070101;
+}
+
+.icha2 {
+    position: absolute;
+    width: 477px;
+    height: 636px;
+    left: -650px;
+    top:-150px;
+    background: url('icha2.png') no-repeat center center/cover;
+}
+
+.desktop-3 {
+    position: absolute;
+    width: 1440px;
+    height: 579px;
+    left: 0px;
+    top: 2026px;
+    background: #04273f;
+}
+
+/* Frame 9 */
+.frame9 {
+    position: absolute;
+    width: 436px;
+    height: 170px;
+    left: 57px;
+    top: -10px;
+}
+
+.contact-me {
+    position: relative;
+    width: 545px;
+    height: 118px;
+    left: 27px;
+    top: 30px;
+    font-family: 'italic';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    color: #0a0a0a;
+}
+
+/* Frame 10 */
+.frame10 {
+    position: absolute;
+    width: 1370px;
+    height: 321px;
+    left: 44px;
+    top: 202px;
+}
+
+.wa1 {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    left: 107px;
+    top: 23px;
+    background: url('wa1-removebg-preview.png') no-repeat center center/cover;
+}
+
+.email {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    left: 550px;
+    top: 20px;
+    background: url('email.png') no-repeat center center/cover;
+}
+
+.instagram {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    left: 1062px;
+    top: 7px;
+    background: url('instagram.png') no-repeat center center/cover;
+}
+
+.contact-number, .email-address, .instagram-handle {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.contact-number {
+    width: 305px;
+    height: 45px;
+    left: 80px;
+    top: 202px;
+}
+
+.email-address {
+    width: 407px;
+    height: 45px;
+    left: 498px;
+    top: 202px;
+}
+
+.instagram-handle {
+    width: 223px;
+    height: 45px;
+    left: 1070px;
+    top: 202px;
+}
